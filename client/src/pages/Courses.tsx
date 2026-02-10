@@ -82,9 +82,9 @@ export default function Courses() {
       
       <main className="flex-1 py-12 container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-4">Academic Courses</h1>
+          <h1 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-4">Syllabus Guides</h1>
           <p className="text-muted-foreground text-lg">
-            Structured learning paths designed by top Indian academicians to help you excel in your psychology career.
+            Detailed in-depth explanations of MA Psychology syllabi from top Indian universities.
           </p>
         </div>
 
@@ -114,7 +114,7 @@ export default function Courses() {
                     <Clock className="w-4 h-4 mr-2" /> {course.duration}
                   </div>
                   <div className="flex items-center">
-                    <BookOpen className="w-4 h-4 mr-2" /> {course.students} Students Enrolled
+                    <BookOpen className="w-4 h-4 mr-2" /> {course.students} Learners
                   </div>
                 </div>
                 <div className="flex flex-wrap gap-2 mt-4">
@@ -128,7 +128,7 @@ export default function Courses() {
               <CardFooter className="pt-4 border-t">
                 <Link href={`/course/${course.id}`}>
                   <Button className="w-full group">
-                    View Course <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                    Read Guide <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </Link>
               </CardFooter>

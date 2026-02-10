@@ -63,7 +63,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/courses">
               <Button size="lg" className="bg-white text-primary hover:bg-white/90 font-semibold px-8 h-12 w-full sm:w-auto">
-                Explore Courses
+                Syllabus Guides
               </Button>
             </Link>
             <Link href="/counsellors">
@@ -80,12 +80,12 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex items-end justify-between mb-12">
             <div>
-              <h2 className="text-3xl font-serif font-bold text-primary mb-2">Latest Insights</h2>
-              <p className="text-muted-foreground">Curated articles from academic experts.</p>
+              <h2 className="text-3xl font-serif font-bold text-primary mb-2">Syllabus Explanations</h2>
+              <p className="text-muted-foreground">Expert guides for MA Psychology students.</p>
             </div>
             <Link href="/articles">
               <Button variant="ghost" className="hidden md:flex text-primary hover:text-primary/80 hover:bg-primary/5">
-                View All Articles <ArrowRight className="ml-2 w-4 h-4" />
+                View All Guides <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </Link>
           </div>
