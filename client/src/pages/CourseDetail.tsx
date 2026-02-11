@@ -79,8 +79,11 @@ export default function CourseDetail() {
                 </ul>
               </div>
             </PDFWrapper>
-            
-            <AIDoubtBox />
+
+            <div className="pt-8 border-t">
+               <h3 className="font-serif font-bold text-xl text-primary mb-4">Have Doubts? Ask AI</h3>
+               <AIDoubtBox />
+            </div>
           </div>
 
           {/* Sidebar */}

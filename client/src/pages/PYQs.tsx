@@ -149,7 +149,10 @@ export default function PYQs() {
                   </div>
                 </PDFWrapper>
 
-                <AIDoubtBox />
+                <div className="pt-8 border-t">
+                  <h3 className="font-serif font-bold text-xl text-primary mb-4">Stuck on a question? Ask AI</h3>
+                  <AIDoubtBox />
+                </div>
               </div>
             ) : (
               <div className="h-full min-h-[400px] flex flex-col items-center justify-center bg-secondary/20 rounded-xl border-2 border-dashed border-border/60">

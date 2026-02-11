@@ -22,9 +22,7 @@ export function Navbar() {
         <Link href="/">
           <a className="flex items-center space-x-2">
             <img src="/logo.png" alt="Mindscape India" className="h-8 w-8 object-contain" />
-            <span className="font-serif text-xl font-bold text-primary tracking-tight">
-              Mindscape <span className="text-[#FF9933]">I</span><span className="text-primary dark:text-white">N</span><span className="text-[#138808]">D</span>ia
-            </span>
+            <span className="font-serif text-xl font-bold text-primary tracking-tight">Mindscape India</span>
           </a>
         </Link>
 

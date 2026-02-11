@@ -88,8 +88,6 @@ export default function ArticleDetail() {
             </p>
           </article>
 
-          <AIDoubtBox />
-
           {/* Find Counsellor Section */}
           <div className="mt-16 pt-16 border-t">
             <h3 className="text-2xl font-serif font-bold text-primary mb-6 text-center">Need Professional Support?</h3>
