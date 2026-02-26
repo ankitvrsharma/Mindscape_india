@@ -9,7 +9,6 @@ export function Navbar() {
 
   const navItems = [
     { label: "Universities", path: "/articles", icon: <BookOpen className="w-4 h-4 mr-2" /> },
-    { label: "Courses", path: "/courses", icon: <GraduationCap className="w-4 h-4 mr-2" /> },
     { label: "PYQs", path: "/pyqs", icon: <Brain className="w-4 h-4 mr-2" /> },
     { label: "Find Counsellor", path: "/counsellors", icon: <Users className="w-4 h-4 mr-2" /> },
   ];

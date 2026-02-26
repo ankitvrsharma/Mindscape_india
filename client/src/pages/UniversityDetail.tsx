@@ -8,6 +8,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ChevronLeft, Languages, Sparkles } from "lucide-react";
 import { Link, useRoute } from "wouter";
 import { useState } from "react";
+import { PersistentAITutor } from "@/components/shared/PersistentAITutor";
 
 export default function UniversityDetail() {
   const [, params] = useRoute("/university/:id");
@@ -99,6 +100,7 @@ export default function UniversityDetail() {
         </div>
       </main>
 
+      <PersistentAITutor />
       <Footer />
     </div>
   );

@@ -35,7 +35,6 @@ function App() {
         <div className="relative min-h-screen">
           <Router />
           <Toaster />
-          <PersistentAITutor />
         </div>
       </TooltipProvider>
     </QueryClientProvider>
